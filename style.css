@@ -30,31 +30,31 @@ table {
 
 @font-face {
   font-family: 'Avenir 35';
-  src: url(./fonts/Avenir/avenir-35.eot);
-  src: url(./fonts/Avenir/avenir-35.woff) format('woff'), 
-       url(./fonts/Avenir/avenir-35.ttf) format('truetype'), 
-       url(./fonts/Avenir/avenir-35.svg) format('svg');
+  src: url(./fonts/avenir/avenir-35.eot);
+  src: url(./fonts/avenir/avenir-35.woff) format('woff'), 
+       url(./fonts/avenir/avenir-35.ttf) format('truetype'), 
+       url(./fonts/avenir/avenir-35.svg) format('svg');
 }
 @font-face {
   font-family: 'Avenir 45';
-  src: url(./fonts/Avenir/avenir-45.eot);
-  src: url(./fonts/Avenir/avenir-45.woff) format('woff'), 
-       url(./fonts/Avenir/avenir-45.ttf) format('truetype'), 
-       url(./fonts/Avenir/avenir-45.svg) format('svg');
+  src: url(./fonts/avenir/avenir-45.eot);
+  src: url(./fonts/avenir/avenir-45.woff) format('woff'), 
+       url(./fonts/avenir/avenir-45.ttf) format('truetype'), 
+       url(./fonts/avenir/avenir-45.svg) format('svg');
 }
 @font-face {
   font-family: 'Avenir 65';
-  src: url(./fonts/Avenir/avenir-65.eot);
-  src: url(./fonts/Avenir/avenir-65.woff) format('woff'), 
-       url(./fonts/Avenir/avenir-65.ttf) format('truetype'), 
-       url(./fonts/Avenir/avenir-65.svg) format('svg');
+  src: url(./fonts/avenir/avenir-65.eot);
+  src: url(./fonts/avenir/avenir-65.woff) format('woff'), 
+       url(./fonts/avenir/avenir-65.ttf) format('truetype'), 
+       url(./fonts/avenir/avenir-65.svg) format('svg');
 }
 @font-face {
   font-family: 'Avenir 85';
-  src: url(./fonts/Avenir/avenir-85.eot);
-  src: url(./fonts/Avenir/avenir-85.woff) format('woff'), 
-       url(./fonts/Avenir/avenir-85.ttf) format('truetype'), 
-       url(./fonts/Avenir/avenir-85.svg) format('svg');
+  src: url(./fonts/avenir/avenir-85.eot);
+  src: url(./fonts/avenir/avenir-85.woff) format('woff'), 
+       url(./fonts/avenir/avenir-85.ttf) format('truetype'), 
+       url(./fonts/avenir/avenir-85.svg) format('svg');
 }
 
 
