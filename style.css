@@ -253,12 +253,10 @@ svg path.lettering {
   #uber:hover:hover path {
     fill: #fff; }
 
-#salesforce:hover {
-  background: #007EE5; }
-  #salesforce:hover:hover path {
+#recombine:hover {
+  background: #EF4923; }
+  #recombine:hover:hover path {
     fill: #fff; }
-  #salesforce:hover:hover path.lettering {
-    fill: #007EE5; }
 
 #nextdoor:hover {
   background: #19975D; }
