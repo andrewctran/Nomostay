@@ -1,0 +1,287 @@
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: 'Avenir 35';
+  src: url(./fonts/Avenir/avenir-35.eot);
+  src: url(./fonts/Avenir/avenir-35.woff) format('woff'), 
+       url(./fonts/Avenir/avenir-35.ttf) format('truetype'), 
+       url(./fonts/Avenir/avenir-35.svg) format('svg');
+}
+@font-face {
+  font-family: 'Avenir 45';
+  src: url(./fonts/Avenir/avenir-45.eot);
+  src: url(./fonts/Avenir/avenir-45.woff) format('woff'), 
+       url(./fonts/Avenir/avenir-45.ttf) format('truetype'), 
+       url(./fonts/Avenir/avenir-45.svg) format('svg');
+}
+@font-face {
+  font-family: 'Avenir 65';
+  src: url(./fonts/Avenir/avenir-65.eot);
+  src: url(./fonts/Avenir/avenir-65.woff) format('woff'), 
+       url(./fonts/Avenir/avenir-65.ttf) format('truetype'), 
+       url(./fonts/Avenir/avenir-65.svg) format('svg');
+}
+@font-face {
+  font-family: 'Avenir 85';
+  src: url(./fonts/Avenir/avenir-85.eot);
+  src: url(./fonts/Avenir/avenir-85.woff) format('woff'), 
+       url(./fonts/Avenir/avenir-85.ttf) format('truetype'), 
+       url(./fonts/Avenir/avenir-85.svg) format('svg');
+}
+
+
+/* Breakpoints */
+/* Clearfix */
+/* Global */
+body {
+  font: 16px/1 "Avenir 45", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #777; }
+
+p {
+  line-height: 1.8; }
+
+strong {
+  font-weight: 500;
+  color: #333; }
+
+a {
+  text-decoration: none;
+  color: #5badf0; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(64,64,64,.17);
+  z-index: 99;
+  height: 650px;
+}
+/* Heading */
+header {
+  height: 650px;
+  background: #251d35 url("http://static1.squarespace.com/static/537cc9c9e4b0bb0d036e3a28/t/5384df3ce4b02ca8a9380764/1401216846687/Banner+3.jpg?format=1500w") no-repeat;
+  /*background-size: 975px 617px;*/
+  background-position: center;
+  text-align: center; }
+  header #login {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #dfdfe1;
+    font-size: 14px; }
+    header #login a {
+      color: #03d79f;
+      font-family: 'Avenir 85'; }
+      header #login a:hover {
+        text-decoration: underline; }
+  header .wrapper {
+    padding-top: 160px; }
+  header #founded {
+    color: #03d79f;
+    font-size: 20px;
+    letter-spacing: 2px; }
+  header h1 {
+    color: #fff;
+    font-family: 'Avenir 85';
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin: 10px 0 40px 0; }
+  header p {
+    color: #dfdfe1;
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 12px; }
+  header #read {
+    color: #03d79f;
+    text-transform: uppercase;
+    font-family: 'Avenir 85';
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 40px;
+    letter-spacing: 1px; }
+    header #read:hover {
+      opacity: .8; }
+
+.button {
+  background: #03d79f;
+  border-radius: 3px;
+  padding: 20px 60px;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  font-family: 'Avenir 85'; }
+  .button:hover {
+    background: #06c391; }
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 20px; }
+
+section.wrapper {
+  margin-top: 50px; }
+  section.wrapper .sidebar {
+    vertical-align: top;
+    border-top: 8px solid #251d35;
+    width: 27%;
+    display: inline-block;
+    margin-right: 6%;
+    margin-bottom: 20px;
+    padding-top: 20px; }
+    @media (max-width: 767px) {
+      section.wrapper .sidebar {
+        float: none;
+        width: 100%;
+        margin-right: 0; } }
+    section.wrapper .sidebar h2 {
+      font-family: 'Avenir 85';
+      text-transform: uppercase;
+      font-size: 24px;
+      color: #251d35;
+      line-height: 1.3; }
+    section.wrapper .sidebar p {
+      margin-top: 20px; }
+  section.wrapper ul {
+    vertical-align: top;
+    width: 66%;
+    display: inline-block; }
+    @media (max-width: 767px) {
+      section.wrapper ul {
+        float: none;
+        width: 100%; } }
+    section.wrapper ul li {
+      background: #e9e8ea;
+      width: 30%;
+      float: left;
+      position: relative;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      margin-left: 1%;
+      margin-bottom: 1%;
+      line-height: 0; }
+      section.wrapper ul li:hover > div {
+        display: block; }
+        @media (max-width: 550px) {
+          section.wrapper ul li:hover > div {
+            display: none; } }
+      section.wrapper ul li div {
+        pointer-events: none;
+        position: absolute;
+        background: rgba(27, 29, 52, 0.9);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding-top: 15%;
+        display: none; }
+        section.wrapper ul li div h3 {
+          font-family: 'Avenir 85';
+          color: #fff;
+          font-size: 22px;
+          line-height: 1.3; }
+        section.wrapper ul li div span {
+          display: inline-block;
+          margin-top: 20px;
+          line-height: 1.6;
+          color: #d1d0d2; }
+      section.wrapper ul li img {
+        width: 100%; }
+
+section.wrapper img {
+  width: 61.5%;
+  /*margin-bottom: 1%;*/
+}
+
+section.wrapper .nth {
+  margin-left: 33.5%;
+}
+
+.cities h3 {
+  font-family: 'Avenir 85';
+  color: #fff;
+  font-size: 22px;
+  line-height: 1.3;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+/* SVG Corrections */
+svg path, polygon {
+  fill: #3D464D; }
+
+svg path.lettering {
+  fill: #3D464D; }
+
+#uber:hover {
+  background: #070716; }
+  #uber:hover:hover path {
+    fill: #fff; }
+
+#salesforce:hover {
+  background: #007EE5; }
+  #salesforce:hover:hover path {
+    fill: #fff; }
+  #salesforce:hover:hover path.lettering {
+    fill: #007EE5; }
+
+#nextdoor:hover {
+  background: #19975D; }
+  #nextdoor:hover:hover path {
+    fill: #fff; }
+
+#bottom {
+  background: #251d35;
+  text-align: center;
+  padding: 40px 0; }
+  #bottom p {
+    font-family: 'Avenir 65';
+    font-size: 18px;
+    color: #cfced1;
+    margin-bottom: 20px; }
+
+footer.wrapper {
+  text-align: center;
+  padding: 20px 0 30px 0; }
+  footer.wrapper svg {
+    width: 80px; }
+    footer.wrapper svg path {
+      fill: #3D464D; }
+  footer.wrapper p {
+    font-family: 'Avenir 85';
+    color: #bdbbbf; }
