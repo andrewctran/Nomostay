@@ -283,3 +283,8 @@ footer.wrapper {
   footer.wrapper p {
     font-family: 'Avenir 85';
     color: #bdbbbf; }
+  footer.wrapper img {
+    width:50px;
+    margin-top:20px;
+    margin-bottom:20px;
+  }
