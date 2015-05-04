@@ -34,3 +34,12 @@ function retina() {
 };
  
 $(document).ready(retina);
+
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 650) {
+    $('.blackBackground').fadeIn();
+  } else {
+    $('.blackBackground').fadeOut();
+  }
+});
